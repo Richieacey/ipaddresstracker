@@ -128,8 +128,8 @@ export default function App() {
   return (
     <>
       <header className="flex items-center justify-center flex-col relative w-full">
-        <img src="./src/assets/images/pattern-bg-mobile.png" className="w-full absolute z-[2] block md:hidden top-0 h-[20rem] object-cover" alt="background" />
-        <img src="./src/assets/images/pattern-bg-desktop.png" className="w-full absolute z-[2] md:block hidden top-0 h-[20rem] object-cover" alt="background" />
+        <img src="https://m4xfwg1vaot0d1nn.public.blob.vercel-storage.com/pattern-bg-mobile.png" className="w-full absolute z-[2] block md:hidden top-0 h-[20rem] object-cover" alt="background" />
+        <img src="https://m4xfwg1vaot0d1nn.public.blob.vercel-storage.com/pattern-bg-desktop.png" className="w-full absolute z-[2] md:block hidden top-0 h-[20rem] object-cover" alt="background" />
 
         <div className="flex flex-col justify-center items-center top-10 relative z-20 w-full pt-8">
           <h1 className="text-3xl text-white mb-8 font-bold">IP Address Tracker</h1>
@@ -146,7 +146,7 @@ export default function App() {
               className="bg-black hover:bg-gray-700 transition-colors px-6 h-[4rem] rounded-r-xl flex items-center justify-center"
               aria-label="Search"
             >
-              <img src="./src/assets/images/icon-arrow.svg" alt="Arrow icon" />
+              <img src="https://m4xfwg1vaot0d1nn.public.blob.vercel-storage.com/icon-arrow.svg" alt="Arrow icon" />
             </button>
           </form>
         </div>
